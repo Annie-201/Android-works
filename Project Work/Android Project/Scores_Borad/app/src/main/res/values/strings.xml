@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Scores_Borad</string>
+    <string name="_0">0</string>
+    <string name="_3points">+3</string>
+    <string name="_2points">+2</string>
+    <string name="_1points">+1</string>
+    <string name="_2point">+2</string>
+    <string name="_3point">+3</string>
+    <string name="_1point">+1</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="browser" type="id" />
+    <item name="gallery" type="id" />
+    <item name="dial" type="id" />
+    <item name="share" type="id" />
+</resources>
