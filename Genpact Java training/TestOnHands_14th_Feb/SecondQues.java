@@ -1,7 +1,6 @@
 package TestOnHands;
 
 import java.util.Scanner;
-
 class Customer{
     String name,address;
     int age;
@@ -63,7 +62,7 @@ class ICICI extends RBI{ // Child class2
     }
 }
 
-public class InhTest { //Tester code
+public class SecondQues  { //Tester code
 public static void main(String args[]) {
 SBI sbi = new SBI();
 ICICI icici = new ICICI();
