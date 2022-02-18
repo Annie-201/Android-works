@@ -47,7 +47,6 @@ Associate_ID varchar(20),
 Module_ID varchar(20),
 Start_Date varchar(20),
 End_Date varchar(20),
-Start_Date varchar(20),
 AFeedBackGiven varchar(20),
 TFeedBackGiven varchar(20)
 );
