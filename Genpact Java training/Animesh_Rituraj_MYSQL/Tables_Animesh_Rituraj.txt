@@ -1,0 +1,76 @@
+show databases;
+use genpact;
+CREATE TABLE Trainer_Info
+(
+TrainerID varchar(20),
+Saluation varchar(7),
+Trainer_Name varchar(30),
+Trainer_Location varchar(25),
+Trainer_Track varchar(15),
+Trainer_Qualification varchar(100),
+Trainer_Experience varchar(11),
+Trainer_Email varchar(100),
+Trainer_Password varchar(20)
+);
+CREATE TABLE Batch_Info
+(
+BatchID varchar(20),
+Batch_Owner varchar(25),
+Batch_BU_Name varchar(25)
+);
+CREATE TABLE Module_Info
+(
+Model_ID varchar(20),
+Model_Name varchar(40),
+Model_Duration int(11)
+);
+CREATE TABLE Associate_Info
+(
+Associate_ID varchar(20),
+Saluation varchar(7),
+Associate_Name varchar(30),
+Associate_Location varchar(30),
+Associate_track varchar(15),
+Associate_Qualification varchar(255),
+Associate_Email varchar(100),
+Associate_Password varchar(20)
+);
+CREATE TABLE Questions
+(
+Question_ID varchar(20),
+Module_ID varchar(20),
+Question_Text varchar(900)
+);
+CREATE TABLE Associate_Status
+(
+Associate_ID varchar(20),
+Module_ID varchar(20),
+Start_Date varchar(20),
+End_Date varchar(20),
+Start_Date varchar(20),
+AFeedBackGiven varchar(20),
+TFeedBackGiven varchar(20)
+);
+CREATE TABLE Trainer_FeedBack
+(
+Trainer_ID varchar(20),
+Question_ID varchar(20),
+Batch_ID varchar(20),
+Module_ID varchar(20),
+Trainer_Rating int(20)
+);
+CREATE TABLE Associate_FeedBack
+(
+Associate_ID varchar(20),
+Question_ID varchar(20),
+Module_ID varchar(20),
+Associate_Rating int(20)
+);
+CREATE TABLE Login_Details
+(
+User_ID varchar(20),
+User_Password varchar(20)
+);
+
+
+
