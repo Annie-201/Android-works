@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <form>
+        <label>
+    <span class="nmoncd">Name on Card</span>
+    <input name="nameoncard" type="text" placeholder="Enter Your Name">
+  </label>
+        <label> 
+    <span class="cdnum">Card Number <span>(Dashes not required)</span></span>
+    <input name="cardnumber" type="text" placeholder="XXXX-XXXX-XXXX-XXXX">
+  </label>
+        <label class="exp">
+    <span class="expdt">Exp. Date</span>
+    <input name="experationdate" type="text" placeholder="MM/YYYY">
+  </label>
+        <label class="cvv">
+    <span class="cvvnum">CVV</span>
+    <input name="cvvnumber" type="text" placeholder="XXX">
+  </label>
+        <button type="submit">
+    Buy Now
+  </button>
+    </form>
+    <style>
+        HTML CSSResult Skip Results Iframe EDIT ON @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.5em;
+            font-family: Raleway, Helvetica, sans-serif;
+            font-weight: 100;
+            background: linear-gradient( 192deg, #ed912f, #f17f2e, #f7493d, #eb0062, #bb0094, #6800bb, #0003c8);
+        }
+        
+        input {
+            padding: 0.6em 0.25em 0;
+            font-size: 1.5em;
+            height: 2.1em;
+            margin-bottom: 0.25em;
+            border: none;
+            border-bottom: 1px solid peachpuff;
+            font-family: Raleway, Helvetica, sans-serif;
+            font-weight: 100;
+            border-radius: 0.25em;
+        }
+        
+        label span {
+            font-size: 0.75em;
+        }
+        
+        form {
+            width: 100%;
+            max-width: 23em;
+            border: 1px solid #ed912f;
+            padding: 0.75em;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #fff0f0;
+            filter: drop-shadow(-0.25em 0.25em 0.25em rgba(0, 0, 125, 0.25));
+            border-radius: 0.375em;
+        }
+        
+        form label {
+            position: relative;
+        }
+        
+        form label>span {
+            position: absolute;
+            top: 0.25em;
+            left: 0.25em;
+        }
+        
+        .cdnum span {
+            color: #555;
+            font-size: 0.8em;
+        }
+        
+        .cvv {
+            width: 25%;
+        }
+        
+        label,
+        input {
+            width: 100%;
+        }
+        
+        .exp {
+            width: calc(75% - 0.75em);
+        }
+        
+        button {
+            width: 100%;
+            height: 2.75em;
+            font-size: 1em;
+            font-family: Raleway, Helvetica, sans-serif;
+            background-color: #e56a9f;
+            border: none;
+            color: #fff;
+            border-radius: 0.25em;
+            margin: 0.25em 0 0 0;
+            padding: 0.5em;
+        }
+        
+        button:hover,
+        button:focus {
+            background-color: #eb0062;
+        }
+        
+         ::placeholder {
+            color: #ccc;
+            opacity: 1;
+        }
+        
+         ::-ms-input-placeholder {
+            color: #ccc;
+        }
+        
+        input:focus {
+            outline-color: #eb0062;
+        }
+    </style>
+</body>
+
+</html>
